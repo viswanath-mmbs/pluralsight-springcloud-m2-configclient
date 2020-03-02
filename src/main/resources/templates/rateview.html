@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Plural sight training : Config Client</title>
+
+    <link rel="stylesheet" th:href="@{webjars/bootstrap/4.2.1/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/css/main.css}"/>
+
+</head>
+
+<body>
+
+
+    <div class="starter-template">
+        <h1>Plural sight training : Spring cloud Config Client</h1>
+            <p th:text="'your rate is ' + ${rateamount} + ', number of lanes is ' + ${lanecount} + ', toll start time is '+${tollstart} +''"></span>
+        </h2>
+    </div>
+</body>
+</html>

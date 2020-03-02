@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: s1rates
+
+eureka:
+  client:
+    register-with-eureka : true
+    fetch-registry : true
+  instance: ${spring.application.name}:${random.int}  
+  
+server.port: 0

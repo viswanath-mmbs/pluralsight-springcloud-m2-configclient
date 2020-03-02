@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active:
+    - qa
+  cloud:
+    config:
+      username: mvn
+      password: mvn
+      uri:
+      - http://localhost:8888
